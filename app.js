@@ -3,7 +3,7 @@ let screenHeight = window.innerHeight;
 const canvas = document.getElementById('canvas');
 
 const renderer = PIXI.autoDetectRenderer({
-    forceCanvas: true,
+    forceCanvas: true, // if you toggle this to false it doesnt render in same position
     width: screenWidth,
     height: screenHeight,
     antialias: false,
